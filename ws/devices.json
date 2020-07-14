@@ -1,0 +1,615 @@
+{
+  "groups": [
+    {
+      "groupId": 428,
+      "groupName": "a-may-zing",
+      "displayName": "a-may-zing",
+      "sites": [
+        {
+          "datas": {
+            "address": "4 ZA le Café Cochon, Virandeville, France",
+            "displayedName": "4 dhclients",
+            "mapInfo": {
+              "latitude": 49.579017500000013,
+              "longitude": -1.709799299999986
+            }
+          },
+          "siteName": "4-dhclients",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=4-dhclients&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Route de l'Aéroport 4, Meyrin, Suisse",
+            "displayedName": "aerotest",
+            "mapInfo": {
+              "latitude": 46.2278278,
+              "longitude": 6.1028185999999778
+            }
+          },
+          "siteName": "aerotest",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=aerotest&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Blue Square, Kortumstraße, Bochum, Allemagne",
+            "displayedName": "Blue Square",
+            "mapInfo": {
+              "latitude": 51.4817156,
+              "longitude": 7.2177384999999958
+            }
+          },
+          "siteName": "blue-square",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=blue-square&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "BLUE SQUARE Apartments, North 800 East, Logan, Utah, États-Unis",
+            "displayedName": "Blue Square 2",
+            "mapInfo": {
+              "latitude": 41.7515667,
+              "longitude": -111.8141885
+            }
+          },
+          "siteName": "blue-square-2",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=blue-square-2&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "18 Avenue Parmentier, Paris, France",
+            "displayedName": "Boot 18",
+            "mapInfo": {
+              "latitude": 48.8599104,
+              "longitude": 2.3791948000000502
+            }
+          },
+          "siteName": "boot-18",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=boot-18&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "64 Rue de la Croix Nivert, Paris, France",
+            "displayedName": "cross test 4ports",
+            "mapInfo": {
+              "latitude": 48.8450862,
+              "longitude": 2.2973535999999513
+            }
+          },
+          "siteName": "cross-test-4ports",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=cross-test-4ports&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "4546 El Camino Real, Los Altos, Californie, États-Unis",
+            "displayedName": "crosstest 60 dnsrequest",
+            "mapInfo": {
+              "latitude": 37.4009019,
+              "longitude": -122.11454270000002
+            }
+          },
+          "siteName": "crosstest-60-dnsrequest",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=crosstest-60-dnsrequest&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Avenue Louise 483, Bruxelles, Belgique",
+            "displayedName": "tests lucien",
+            "mapInfo": {
+              "latitude": 50.8169493,
+              "longitude": 4.3711849999999686
+            }
+          },
+          "siteName": "de-zero",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=de-zero&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "69 Rue de la Chatte, Noirmoutier-en-l'Île, France",
+            "displayedName": "G-Spot",
+            "mapInfo": {
+              "latitude": 47.0270744,
+              "longitude": -2.260474400000021
+            }
+          },
+          "siteName": "g-spot",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=g-spot&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "G-SPOT Reloaded",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "g-spot-reloaded",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=g-spot-reloaded&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "G-spot (secours)",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "g-spot-secours",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=g-spot-secours&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "3663 Wilshire Boulevard, Los Angeles, CA, USA",
+            "displayedName": "la caravane passe et le 4ports salue",
+            "mapInfo": {
+              "latitude": 34.0620447,
+              "longitude": -118.30500940000002
+            }
+          },
+          "siteName": "la-caravane-passe-et-le-4ports-salue",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=la-caravane-passe-et-le-4ports-salue&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "12 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "LA LA LA ",
+            "mapInfo": {
+              "latitude": 48.6811678,
+              "longitude": 2.1990650000000187
+            }
+          },
+          "siteName": "la-la-la",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=la-la-la&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Besançon, France",
+            "displayedName": "new GOOD ESPECE 3k",
+            "mapInfo": {
+              "latitude": 47.237829,
+              "longitude": 6.0240539000000126
+            }
+          },
+          "siteName": "new-good-espece-3k",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=new-good-espece-3k&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "NginXprod",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "nginxprod",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=nginxprod&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Schwarzenburgstrasse 4, Berne, Suisse",
+            "displayedName": "post may 2020 validation",
+            "mapInfo": {
+              "latitude": 46.9404231,
+              "longitude": 7.4306605999999986
+            }
+          },
+          "siteName": "post-may-2020-validation",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=post-may-2020-validation&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "45 Rue des Toutoutes, Nouméa, Nouvelle-Calédonie",
+            "displayedName": "prod ipéfix",
+            "mapInfo": {
+              "latitude": -22.2231542,
+              "longitude": 166.52573540000003
+            }
+          },
+          "siteName": "prod-ipefix",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=prod-ipefix&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "2, New Model Town Road, Mohan Nagar, Thanesar, Haryana, Inde",
+            "displayedName": "rbook reference dec 2019",
+            "mapInfo": {
+              "latitude": 29.9784491,
+              "longitude": 76.847931499999959
+            }
+          },
+          "siteName": "rbook-reference-dec-2019",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=rbook-reference-dec-2019&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Avenida Corrientes 5645, Ville Autonome de Buenos Aires, Argentine",
+            "displayedName": "rbookref pre  janv2019",
+            "mapInfo": {
+              "latitude": -34.5959379,
+              "longitude": -58.442767
+            }
+          },
+          "siteName": "rbookref-pre-janv2019",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=rbookref-pre-janv2019&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "2 Rue au Mètre, Croissy, France",
+            "displayedName": "ref mai 2020",
+            "mapInfo": {
+              "latitude": 48.8775024,
+              "longitude": 2.141511599999999
+            }
+          },
+          "siteName": "ref-mai-2020",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=ref-mai-2020&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Paris Gare de Lyon, Place Louis-Armand, Paris, France",
+            "displayedName": "Restaurant",
+            "mapInfo": {
+              "latitude": 48.844303800000013,
+              "longitude": 2.3743772999999919
+            }
+          },
+          "siteName": "restaurant",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [
+            [
+              "Pourquoi ?",
+              "Boitier de démonstration de M. Schaffner"
+            ]
+          ],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=restaurant&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Testvägen 1, Arlöv, Sweden",
+            "displayedName": "RRGTemplateUpdateTest1",
+            "mapInfo": {
+              "latitude": 55.6449799,
+              "longitude": 13.08466820000001
+            }
+          },
+          "siteName": "rrgtemplateupdatetest1",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=rrgtemplateupdatetest1&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Les Ulis, France",
+            "displayedName": "Test Clé Flash 98",
+            "mapInfo": {
+              "latitude": 48.6792779,
+              "longitude": 2.16647
+            }
+          },
+          "siteName": "test-cle-flash",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=test-cle-flash&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Les Ulis, France",
+            "displayedName": "Test_leandre",
+            "mapInfo": {
+              "latitude": 48.6792779,
+              "longitude": 2.16647
+            }
+          },
+          "siteName": "test-leandre",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=test-leandre&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Test_rrg_v20",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "test-rrg-v20",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=test-rrg-v20&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Les Ulis, France",
+            "displayedName": "Test007",
+            "mapInfo": {
+              "latitude": 48.6792779,
+              "longitude": 2.1664700000000039
+            }
+          },
+          "siteName": "test007",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=test007&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Testeur",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "testeur",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=testeur&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Testeur de Bornes",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "testeur-de-bornes",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=testeur-de-bornes&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Testeur Deux",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "testeur-deux",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=testeur-deux&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Ulis-V4",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "ulis-v4",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=ulis-v4&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "Un autre V4",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "un-autre-v4",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=un-autre-v4&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "un v7 ki traine",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621
+            }
+          },
+          "siteName": "un-v7-ki-traine",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=un-v7-ki-traine&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Próchnika 4, Łódź, Pologne",
+            "displayedName": "v4 et procedure sql",
+            "mapInfo": {
+              "latitude": 51.774592200000008,
+              "longitude": 19.454233700000032
+            }
+          },
+          "siteName": "v4-et-procedure-sql",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v4-et-procedure-sql&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "3 Place des Comparaisons, Émerainville, France",
+            "displayedName": "v4 reference dec 2019",
+            "mapInfo": {
+              "latitude": 48.8069259,
+              "longitude": 2.62242219999996
+            }
+          },
+          "siteName": "v4-reference-dec-2019",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v4-reference-dec-2019&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "v4 simple wan en dhcp",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "v4-simple-wan-en-dhcp",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v4-simple-wan-en-dhcp&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1117 Saint-Catherine Street West, Montréal, QC, Canada",
+            "displayedName": "V4L trophy",
+            "mapInfo": {
+              "latitude": 45.4998243,
+              "longitude": -73.5734885
+            }
+          },
+          "siteName": "v4l-trophy",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v4l-trophy&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue du Colonel Henri Rol-Tanguy, Paris, France",
+            "displayedName": "V7 LAB",
+            "mapInfo": {
+              "latitude": 48.833832500000007,
+              "longitude": 2.3324228000000176
+            }
+          },
+          "siteName": "v7-lab",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v7-lab&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "345 U.S. 1, Kittery, Maine, États-Unis",
+            "displayedName": "v7 ref pre janv2019",
+            "mapInfo": {
+              "latitude": 43.115994099999988,
+              "longitude": -70.730588399999988
+            }
+          },
+          "siteName": "v7-ref-pre-janv2019",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=v7-ref-pre-janv2019&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Ulis 2, Avenue de l'Aubrac, Les Ulis, France",
+            "displayedName": "VikTest",
+            "mapInfo": {
+              "latitude": 48.676790700000012,
+              "longitude": 2.1715472999999292
+            }
+          },
+          "siteName": "viktest",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=viktest&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "Taïwan, Comté de Taoyuan, Yangmei District, 楊湖路三段239號",
+            "displayedName": "vingt GF",
+            "mapInfo": {
+              "latitude": 24.9128186,
+              "longitude": 121.09479590000001
+            }
+          },
+          "siteName": "vingt-gf",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=428&site_name=vingt-gf&device_type=iena"
+        }
+      ],
+      "router": "r1-vgf",
+      "groupReferer": "/Group?&groupid=428&device_type=group"
+    },
+    {
+      "groupId": 510,
+      "groupName": "bornes-autonomes-factory",
+      "displayName": "Bornes Autonomes Factory",
+      "sites": [
+        {
+          "datas": {
+            "address": "Les Ulis, France",
+            "displayedName": "BAF-REMOTE",
+            "mapInfo": {
+              "latitude": 48.6792779,
+              "longitude": 2.16647
+            }
+          },
+          "siteName": "baf-remote",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=510&site_name=baf-remote&device_type=iena"
+        },
+        {
+          "datas": {
+            "address": "1 Avenue de l'Atlantique, Les Ulis, France",
+            "displayedName": "BAF-ULIS",
+            "mapInfo": {
+              "latitude": 48.6838838,
+              "longitude": 2.1998621000000185
+            }
+          },
+          "siteName": "baf-ulis",
+          "statusDate": "2016-05-05T10:03:34.181",
+          "customFields": [],
+          "siteReferer": "/Information/Supervision?&groupid=510&site_name=baf-ulis&device_type=iena"
+        }
+      ],
+      "router": "r6",
+      "groupReferer": "/Group?&groupid=510&device_type=group"
+    }
+  ]
+}

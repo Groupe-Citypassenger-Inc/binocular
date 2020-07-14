@@ -25,6 +25,7 @@ export default {
     };
   },
   created: function() {
+    console.log(process.env);
     // Check if the user is logged
     var url = process.env.VUE_APP_WS_URL + '/ws/User/Logged';
     axios(url, {

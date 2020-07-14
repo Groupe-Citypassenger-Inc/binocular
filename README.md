@@ -8,13 +8,13 @@ npm install
 
 Set your webservice base url for :
 
-- dev env in the file '.env.development' at project root
+- dev env in the file 'dev.env.js' in **config** folder
 
   ```
   VUE_APP_WS_URL=https://preprod.citypassenger.com
   ```
 
-- prod env in the file '.env.production' at project root
+- prod env in the file 'prod.env.js' in **config** folder
 
   ```
   VUE_APP_WS_URL=https://admin.citypassenger.com
@@ -44,15 +44,21 @@ Set your webservice base url for :
 
 ---
 
+### Compiles for development
+
+```
+npm run build --env=development
+```
+
 ### Compiles and minifies for production
 
 ```
-npm run build
+npm run build --env=production
 ```
 
 ---
 
-### Run tests (none atm)
+### Run tests (unit & e2e)
 
 ```
 npm run test
