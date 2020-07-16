@@ -1,6 +1,6 @@
 # binoculars
 
-## Project setup
+#### Project install
 
 ```
 npm install
@@ -8,23 +8,34 @@ npm install
 
 Set your webservice base url for :
 
-- dev env in the file '.env.development' at project root
+- dev env in the file 'dev.env.js' in **config** folder
 
-  ```
-  VUE_APP_WS_URL=https://preprod.citypassenger.com
-  ```
-
-- prod env in the file '.env.production' at project root
-
-  ```
-  VUE_APP_WS_URL=https://admin.citypassenger.com
+  ```js
+  module.exports = {
+    NODE_ENV: '"development"',
+    VUE_APP_WS_URL:'"https://preprod.citypassenger.com"'
+  }
   ```
 
+- prod env in the file 'prod.env.js' in **config** folder
+
+  ```js
+  module.exports = {
+    NODE_ENV: '"production"',
+    VUE_APP_WS_URL:'"https://admin.citypassenger.com"'
+  }
+  ```
+
+#### Install in production
+ ```bash
+ npm install --production
+ ```
+ 
 ---
 
 ## Compiles and hot-reloads for development
 
-1. Set the port as a env variable (replace XXX by 30006 or 80 )
+1. Set the port as a env variable (replace XXX by 30006 or 80)
 
 ```
  PORT=XXX
@@ -46,14 +57,16 @@ Set your webservice base url for :
 
 ### Compiles and minifies for production
 
-```
-npm run build
+```bash
+ npm run build --env=production
 ```
 
 ---
 
-### Run tests (none atm)
+### Run tests, unit and or lint
 
 ```
-npm run test
+ npm run test
+ npm run unit
+ npm run lint
 ```
