@@ -17,6 +17,9 @@ module.exports = merge(baseWebpackConfig, {
   module: {
     loaders: utils.styleLoaders({sourceMap: config.dev.cssSourceMap})
   },
+  eslint: {
+    formatter: require('eslint-friendly-formatter')
+  },
   devtool: '#eval-source-map',
   plugins: [
     new webpack.DefinePlugin({
