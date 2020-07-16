@@ -11,10 +11,11 @@ var webpackConfig;
 if (env.npm_config_env === "production") {
     env.NODE_ENV = 'production';
     webpackConfig = require('./webpack.prod.conf');
-} else if (env.npm_config_env === "development") {
+} else {
     env.NODE_ENV = 'development';
     webpackConfig = require('./webpack.dev.conf');
 }
+
 var spinner = ora('building for ' + env.npm_config_env + '...');
 spinner.start()
 
