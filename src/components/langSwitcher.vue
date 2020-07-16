@@ -1,11 +1,9 @@
 <template>
   <b-dropdown id="langDropdown" variant="light" class="m-md-2">
     <template slot="button-content">
-      <b-img class="flag" :src="require(`@/assets/${$t('flag')}.svg`)" :alt="$t('flag')"/>
-       {{ $t('lang') }}
+        {{ $t('lang') }}
     </template>
     <b-dropdown-item v-for="(lang, i) in langs" @click="setLang(lang)" :key="`Lang${i}`" :value="lang">
-      <b-img  class="flag" :src="require(`@/assets/${$t('flag', lang)}.svg`)" :alt="$t('flag', lang)"/>
        {{ $t('lang', lang) }}
     </b-dropdown-item>
   </b-dropdown>
