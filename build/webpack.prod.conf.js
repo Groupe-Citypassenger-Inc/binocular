@@ -6,9 +6,10 @@ var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.conf')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-var env = process.env.NODE_ENV === 'production'
-  ? require('../config/prod.env')
-  : config.build.env
+var env = {
+  NODE_ENV: '"production"',
+  VUE_APP_WS_URL:'"https://admin.citypassenger.com"'
+};
 
 var webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -31,11 +32,6 @@ var webpackConfig = merge(baseWebpackConfig, {
     new webpack.DefinePlugin({
       'process.env': env
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     // extract css into its own file
     new ExtractTextPlugin(utils.assetsPath('css/[name].[contenthash].css')),
@@ -43,15 +39,17 @@ var webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: process.env.NODE_ENV === 'testing'
-        ? 'index.html'
-        : config.build.index,
+      filename: config.build.index,
       template: 'index.html',
       inject: true,
       minify: {
         removeComments: true,
         collapseWhitespace: true,
-        removeAttributeQuotes: true
+        removeAttributeQuotes: true,
+        minifyCSS : true,
+        minifyJS : true, //uglify is here
+        sortClassName : true,
+        caseSensitive : true
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
