@@ -58,6 +58,8 @@ Set your webservice base url for :
 ### Compiles and minifies for production
 
 ```bash
+ npm install group-dependencies
+ deps install build
  npm run build --env=production
 ```
 
