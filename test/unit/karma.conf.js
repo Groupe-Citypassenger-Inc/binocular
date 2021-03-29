@@ -4,7 +4,7 @@
 //   https://github.com/webpack/karma-webpack
 
 var path = require('path')
-var merge = require('webpack-merge')
+var {merge} = require('webpack-merge')
 var baseConfig = require('../../build/webpack.base.conf')
 var utils = require('../../build/utils')
 var webpack = require('webpack')
@@ -13,12 +13,12 @@ var projectRoot = path.resolve(__dirname, '../../')
 var webpackConfig = merge(baseConfig, {
   // use inline sourcemap for karma-sourcemap-loader
   module: {
-    loaders: utils.styleLoaders()
+    rules: utils.styleLoaders()
   },
-  devtool: '#inline-source-map',
+  devtool: 'inline-source-map',
   vue: {
-    loaders: {
-      js: 'isparta'
+    rules: {
+      js: 'isparta-loader'
     }
   },
   plugins: [
@@ -34,13 +34,18 @@ delete webpackConfig.entry
 // make sure isparta loader is applied before eslint
 webpackConfig.module.preLoaders = webpackConfig.module.preLoaders || []
 webpackConfig.module.preLoaders.unshift({
-  test: /\.js$/,
-  loader: 'isparta',
-  include: path.resolve(projectRoot, 'src')
+  rules: [
+    {
+      test: /\.js$/,
+      enforce: "pre",
+      loader: 'isparta-loader',
+      include: path.resolve(projectRoot, 'src')
+    }
+  ]
 })
 
 // only apply babel for test files when using isparta
-webpackConfig.module.loaders.some(function (loader, i) {
+webpackConfig.module.rules.some(function (loader, i) {
   if (loader.loader === 'babel') {
     loader.include = path.resolve(projectRoot, 'test/unit')
     return true
